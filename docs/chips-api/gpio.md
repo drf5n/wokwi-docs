@@ -87,3 +87,9 @@ pin_watch(pin, &watch_config);
 ### void pin_watch_stop(pin_t pin)
 
 Stops watching for changes on the given pin.
+
+## Simulator examples
+
+- [L298N](https://wokwi.com/projects/410302035690579969) breakout -- Outdated [ST L298 Dual Full-bridge Transistor Driver](https://www.st.com/resource/en/datasheet/l298.pdf) with LEDs simulating DC motor control, potentiometers, and scopes.
+- [L298N](https://wokwi.com/projects/386822856593519617) breakout with stepper motor and scope.
+- [TB6612FNG](https://wokwi.com/projects/410323062531374081) breakout -- [TB6612FNG Dual Full-bridge MOSFET  Driver](https://www.sparkfun.com/datasheets/Robotics/TB6612FNG.pdf) breakout with LEDs simulating DC motor control, potentiometers, and scopes.
